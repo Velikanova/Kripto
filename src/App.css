@@ -1,0 +1,330 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+    margin: auto auto;
+    width: 100%;
+    height: 100%;
+}
+
+.header1 {
+    background-color: #D3D3D3;
+    height: 60px;
+    width: 100%;
+    box-shadow: 0 0 5px; 
+    text-align: center;
+    font-size: 17px;
+/*    display: block;
+    margin: auto auto;*/
+
+}
+
+.header2 {
+    box-shadow: 0 0 5px; 
+    background-color: #008B8B;
+    height: 251px;
+    width: 100%;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: center;
+    
+/*    display: block;
+    margin: auto auto;*/
+    
+}
+
+.header3 {
+    background-color: #008B8B;
+    height: 810;
+    width: 1350;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 150px;
+}
+
+
+.tab1 {
+    background-color: #FFFFFF;
+    box-shadow: 0 0 5px; 
+    height: 810px;
+    width: 1350px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: -140px;
+}
+
+
+.tab3 {
+    height: 810;
+    width: 1350;
+    font-size: 17px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: -140px;
+    box-shadow: 0 0 5px; 
+}
+
+
+.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.tabl {
+    margin-left: 100px;
+    margin-top: -140px;
+    box-shadow: 0 0 5px;
+}
+
+.chartContainer {
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px; 
+    margin-right: 10px;
+    box-sizing: border-box;
+
+}
+
+/*.chartContainer1 {
+    width: 1550px ;
+    height: 810px ;
+    margin-left: 400px;
+    margin-top: 40px; 
+    float: left;
+}
+
+.chartContainer2 {
+    width: 1550px ;
+    height: 810px ;
+    margin-left: 40px;
+    margin-top: 40px; 
+    float: left;
+}*/
+
+.vertical-tabs{
+    margin-left: 60px;
+
+}
+
+.canvasjs-chart-canvas1{
+/*    width: 400px ;
+    height: 500px ;*/
+    float: left;
+    margin-left: 40px;
+    margin-top: 50px; 
+    
+}
+
+.canvasjs-chart-canvas2{
+/*    width: 400px ;
+    height: 500px ;*/
+    float: left;
+    margin-left: 200px;
+    margin-top: 50px; 
+}
+
+
+.vertical-tabs {
+/*     margin-left: 100px; */
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.p1 {
+    background: url(photo/bit.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat; 
+    width: 100px;
+    height: 30px;
+    margin-left: 75px;
+    float: left;
+    margin-top: 10px;
+
+
+}
+
+.p2 {
+    background: url(photo/eth.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat; 
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+.p3 {
+    background: url(photo/bnb.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat; 
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+
+
+}
+
+
+.p4 {
+    background: url(photo/USDT.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat; 
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+
+}
+
+
+.p5 {
+    background: url(photo/DOGE.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat; 
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+
+}
+
+
+.p6 {
+    background: url(photo/ADA.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat; 
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+
+}
+
+.p7 {
+    background: url(photo/DOT.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat; 
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+
+}
+.p8 {
+    background: url(photo/BCH.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat; 
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+.p9 {
+    background: url(photo/LTC.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat; 
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+.p10 {
+    background: url(photo/UNI.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat; 
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+.p11 {
+    background: url(photo/XLM.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat; 
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+.p12 {
+    background: url(photo/USDC.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat; 
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+.p13 {
+    background: url(photo/VET.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat; 
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+.p14 {
+    background: url(photo/ETC.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat; 
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+.p15 {
+    background: url(photo/SOL.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat; 
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+.p16 {
+    background: url(photo/FIL.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat; 
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+
+
+
